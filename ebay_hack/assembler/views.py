@@ -45,7 +45,38 @@ def do_get(request):
     
 def get_ram_list(request):
     # call the api for searching ram
-    response = find("4GB")
+    return get_search_results(request.GET["value"])
+
+def get_hdd_list(request):
+    return get_search_results(request.GET["value"]+" hard drive")
+
+def get_monitor_list(request):
+    return get_search_results(request.GET["value"]+" desktop monitor")
+
+def get_keyboard_list(request):
+    return get_search_results(request.GET["value"]+" computer keyboard")
+
+def get_mouse_list(request):
+    return get_search_results(request.GET["value"]+" mouse")
+
+def get_motherboard_list(request):
+    return get_search_results(request.GET["value"]+" motherboard")
+
+def get_processor_list(request):
+    return get_search_results(request.GET["value"]+" processor")
+
+def get_case_list(request):
+    return get_search_results(request.GET["value"]+" desktop cabinet")
+
+def get_video_list(request):
+    return get_search_results(request.GET["value"])
+
+def get_drive_list(request):
+    return get_search_results(request.GET["value"])
+
+
+def get_search_results(search_key)
+    response = find(search_key)
     a = loads(response)
     result = []
     try:
@@ -53,30 +84,6 @@ def get_ram_list(request):
         result = [(each['itemId'][0], each['title'][0], each['location'][0]) for each in b['item']]
     except: pass
     return render_to_response("index.html",{"result": result})
-
-def get_hdd_list(request):
-    return render_to_response("index.html",{"p": "hdd", "result": [(1, 200, 102433),(2, 300, 123441)]})
-
-def get_monitor_list(request):
-    return render_to_response("index.html",{"p": "monitor", "result": [(1, 200, 102433),(2, 300, 123441)]})
-
-def get_keyboard_list(request):
-    return render_to_response("index.html",{"p": "keyboard", "result": [(1, 200, 102433),(2, 300, 123441)]})
-
-
-def get_mouse_list(request):
-    pass
-
-def get_motherboard_list(request):
-    pass
-
-
-def get_processor_list(request):
-    pass
-
-
-def get_case_list(request):
-    pass
 
 
 def get_404_error(request):
