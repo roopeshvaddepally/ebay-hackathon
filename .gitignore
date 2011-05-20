@@ -1,0 +1,4 @@
+*.pyc
+*.ini
+local_settings.py
+*.db
