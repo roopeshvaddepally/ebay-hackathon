@@ -127,7 +127,9 @@ legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%;
 #photos img {display:block; float:left; width:150px; height:110px; margin-left:12px; border:0;}
 
 .col30 {float:left; width:310px;}
+.col40 {float:left; width:620px;}
 .col30.margin {margin:0 15px;}
+.col40.margin {margin:0 15px;}
 
     .col30 h4 {margin-bottom:3px;}
     .col30 ul {margin:20px 0 !important;}
