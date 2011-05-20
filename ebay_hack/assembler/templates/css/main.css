@@ -1,0 +1,149 @@
+/* ----------------------------------------------------------------------------------------------------------
+
+    This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates
+    
+    Structure:
+    display; position; float; z-index; overflow; width; height; margin; padding; border; background; align; font;
+
+    Content:
+    
+        1) HTML tags, reset
+        2) Universal styles (display, float, margin, text-align...)
+        3) Layout
+        4) Page: Home
+        Z) Others
+        
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+1) HTML tags, reset
+---------------------------------------------------------------------------------------------------------- */
+
+* {margin:0; padding:0;}
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
+body {padding:40px 0; font:0.8em/1.5 "arial", serif; text-align:center;}
+
+a {text-decoration:none;}
+
+h1, h2, h3, h4, h5, h6 {margin:15px 0 10px 0;}
+h1 {font-size:260%; font-weight:normal; letter-spacing:-1px;}
+h2 {font-size:160%; font-weight:normal;}
+h3 {font-size:140%; font-weight:normal;}
+h4, h5 {font-size:100%;}
+
+p, table, ul, ol, dl, fieldset {margin:15px 0;}
+
+table {border-collapse:collapse; border-spacing:0; font-size:100%;}
+th {text-align:center; font-weight:bold;}
+th, td {padding:3px 7px;}
+
+ul, ol {margin-left:30px;}
+ul ul, ol ol {margin:0; margin-left:20px;}
+ol {list-style-type:decimal;}
+li {display:list-item;}
+
+dt {font-weight:bold;}
+dd {margin-left:30px;}
+
+fieldset {position:relative; padding:10px;}
+legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%; font-weight:bold;}
+
+/* ----------------------------------------------------------------------------------------------------------
+2) Universal styles (display, float, margin, text-align...)
+---------------------------------------------------------------------------------------------------------- */
+
+.box {min-height:1px;}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";}
+
+.relative {position:relative;}
+
+.clear {clear:both;}
+
+.f-left {float:left !important;} img.f-left {float:left; margin-right:15px;}
+.f-right {float:right !important;} img.f-right {float:right; margin-left:15px;}
+
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+
+.va-top {vertical-align:top;}
+.va-middle {vertical-align:middle;}
+.va-bottom {vertical-align:bottom;}
+
+.nom {margin:0 !important;}
+.nomt {margin-top:0 !important;}
+.nomb {margin-bottom:0 !important;}
+
+.noscreen {display:none;}
+
+    .bigger {font-size:110%;}
+    .smaller {font-size:85%;}
+    
+/* ----------------------------------------------------------------------------------------------------------
+3) LAYOUT
+---------------------------------------------------------------------------------------------------------- */
+
+#main {width:960px; margin:0 auto; text-align:left;}
+    
+	#header {position:relative; padding-bottom:15px;}
+
+        #logo {margin:0; font-weight:normal;}
+        
+        #slogan {margin:0;}
+        
+        #search {position:absolute; bottom:15px; right:0; padding:7px;}
+        #search #search-input {width:175px; padding:3px;}
+        #search #search-submit {padding:2px; font:normal 100%/1.2 "arial",sans-serif;}
+
+    #nav {clear:both; padding:5px 0; border-left:0 !important; border-right:0 !important;}
+    
+        #nav ul {margin:0; padding:0; list-style:none; font:100%/1.4 "arial",sans-serif;}
+        #nav ul li {display:inline; margin:0; padding:0;}
+        #nav ul li a {display:block; float:left; padding:7px 15px; border:0; background:url("../design/dot-03.gif") 100% 0 repeat-y;}
+        #nav ul li#nav-active a {border:0; font-weight:bold;}
+
+	#content {position:relative; padding:10px 0 30px 0; overflow:hidden;}
+
+	#footer {clear:both; font-size:85%;}
+
+/* ----------------------------------------------------------------------------------------------------------
+4) Page: Home
+---------------------------------------------------------------------------------------------------------- */
+
+#topstory {float:left; width:630px;}
+
+    #topstory-title {padding:15px;}
+    #topstory-title h2 {margin:0; margin-bottom:2px;}
+    #topstory-title p.date {margin:0; font-size:85%;}
+    
+    #topstory-perex {display:block; padding:15px; font-size:110%;}
+    #topstory-perex p {margin:0;}
+
+#aside {float:right; width:310px;}
+
+#photos {margin:0; font-size:0; line-height:0;}
+#photos a {border:0;}
+#photos img {display:block; float:left; width:150px; height:110px; margin-left:12px; border:0;}
+
+.col30 {float:left; width:310px;}
+.col30.margin {margin:0 15px;}
+
+    .col30 h4 {margin-bottom:3px;}
+    .col30 ul {margin:20px 0 !important;}
+    .col30 p.date {margin:0; font-size:85%;}
+    .col30 p.bb {padding-bottom:20px; background:url("../design/dot-02.gif") 0 100% repeat-x;}
+    .col30 p img.f-left {margin-right:10px;}
+    .col30 p {position:relative;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Z) Others
+---------------------------------------------------------------------------------------------------------- */
+
+ul.ul-list {margin:15px 0; padding:0; list-style:none;}
+ul.ul-list li {margin:0; margin-bottom:6px; padding:0; padding-left:20px; background:url("../design/ico-list.gif") 0 4px no-repeat;}
+
+.hx-style01 {clear:both; background:url("../design/dot.gif") 0 50% repeat-x; font-size:85%;}
+.hx-style01 span {margin-left:15px; padding:0 5px; font-weight:bold; text-transform:uppercase;}
+
+a.ico-more {padding:5px 7px; border:0 !important;}
