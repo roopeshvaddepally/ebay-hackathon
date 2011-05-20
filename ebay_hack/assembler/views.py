@@ -2,10 +2,6 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 
 def index(request):
-<<<<<<< HEAD
-    print request.GET
-    return render_to_response("assembler/index.html", {"p": request.GET})
-=======
     if request.method == "GET":
         # call get method
         return do_get(request)
