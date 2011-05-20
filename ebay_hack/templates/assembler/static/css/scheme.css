@@ -1,0 +1,70 @@
+/* ----------------------------------------------------------------------------------------------------------
+
+    This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates
+
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+HTML
+---------------------------------------------------------------------------------------------------------- */
+
+body {background:#FFF; color:#000;}
+
+a {border-bottom:1px solid #DFDFDF; color:#000;}
+a:hover {border-bottom:1px solid #DFDFDF; color:#4089F2;}
+
+fieldset {border:1px solid #DFDFDF;}
+legend {background:#FFF; color:#4089F2;}
+
+.low, .low a {color:#7F7F7F;}
+.low a:hover {color:#000;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Layout
+---------------------------------------------------------------------------------------------------------- */
+
+#logo {color:#000;}
+        
+#slogan {color:#7F7F7F;}
+
+#search {background:#EFEFEF;}
+#search #search-input {border:1px solid #AFAFAF;}
+#search #search-input:focus {border:1px solid #5F5F5F;}
+#search #search-submit {border:1px solid #4089F2; background:#4089F2; color:#FFF;}
+
+#nav {border:1px solid #CCC;}
+#nav ul li#nav-active a {background:#4089F2; color:#FFF;}
+
+#footer {border-top:1px solid #DFDFDF; color:#5F5F5F;}
+#footer a {color:#5F5F5F;}
+#footer a:hover {color:#000;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Page: Home
+---------------------------------------------------------------------------------------------------------- */
+
+#topstory-title {border-bottom:1px solid #3F3F3F; background:#9F9F9F;}
+#topstory-title h2 a {border-bottom:1px solid #5F5F5F; color:#FFF;}
+#topstory-title h2 a:hover {border-bottom:1px solid #FFF;}
+#topstory-title p.date {color:#000;}
+#topstory-title p.date a {border-bottom:1px solid #5F5F5F; color:#000;}
+#topstory-title p.date a:hover {border-bottom:1px solid #FFF; color:#FFF;}
+
+#topstory-perex {background:#000; color:#AFAFAF;}
+#topstory-perex a {border-bottom:1px solid #5F5F5F; color:#FFF;}
+#topstory-perex a:hover {border-bottom:1px solid #FFF; color:#FFF;}
+
+.col30 h4 a {color:#4089F2;}
+.col30 h4 a:hover {color:#000;}
+.col30 p.date {color:#7F7F7F;}
+.col30 p.date a {color:#7F7F7F;}
+.col30 p.date a:hover {color:#000;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Others
+---------------------------------------------------------------------------------------------------------- */
+
+.hx-style01 span {background:#FFF; color:#4089F2;}
+
+a.ico-more {background:#F5F5F5; color:#5F5F5F;}
+a:hover.ico-more {background:#4089F2; color:#FFF;}
