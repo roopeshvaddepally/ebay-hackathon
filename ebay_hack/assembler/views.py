@@ -34,7 +34,7 @@ def do_get(request):
         elif request.GET["type"] == "drive":
             return get_drive_list(request)
         else:
-            return get get_404_error(request)
+            return get_404_error(request)
     else:
         return render_to_response("index.html", {"p": request.GET})
 
