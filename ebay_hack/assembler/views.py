@@ -42,16 +42,16 @@ def do_get(request):
     
 def get_ram_list(request):
     # call the api for searching ram
-    return render_to_response("index.html",{"p": "ram list"})
+    return render_to_response("index.html",{"p": "ram","result": [(1, 200, 102433),(2, 300, 123441)]})
 
 def get_hdd_list(request):
-    return render_to_response("index.html",{"p": "hdd list"})
+    return render_to_response("index.html",{"p": "hdd", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 def get_monitor_list(request):
-    return render_to_response("index.html",{"p": "monitor_list"})
+    return render_to_response("index.html",{"p": "monitor", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 def get_keyboard_list(request):
-    return render_to_response("index.html",{"p": "keyboard_list"})
+    return render_to_response("index.html",{"p": "keyboard", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 
 
