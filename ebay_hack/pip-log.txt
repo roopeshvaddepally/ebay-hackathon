@@ -1,0 +1,1045 @@
+Downloading/unpacking virtualenv-burrito
+  Getting page http://pypi.python.org/simple/virtualenv-burrito
+  Could not fetch URL http://pypi.python.org/simple/virtualenv-burrito: HTTP Error 404: Not Found (virtualenv-burrito does not have any releases)
+  Will skip URL http://pypi.python.org/simple/virtualenv-burrito when looking for download links for virtualenv-burrito
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for virtualenv-burrito:
+  Could not find any downloads that satisfy the requirement virtualenv-burrito
+No distributions at all found for virtualenv-burrito
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1029, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for virtualenv-burrito
+------------------------------------------------------------
+/usr/bin/pip run on Thu May 19 23:50:09 2011
+Downloading/unpacking pip
+  Getting page http://pypi.python.org/simple/pip
+  URLs to search for versions for pip:
+  * http://pypi.python.org/simple/pip
+  Getting page http://pip.openplans.org
+  Getting page http://www.pip-installer.org
+  Analyzing links from page http://pypi.python.org/simple/pip/
+    Found link http://pypi.python.org/packages/source/p/pip/pip-1.0.1.tar.gz#md5=28dcc70225e5bf925532abc5b087a94b (from http://pypi.python.org/simple/pip/), version: 1.0.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-1.0.tar.gz#md5=327fc4a03df189506966e15021730550 (from http://pypi.python.org/simple/pip/), version: 1.0
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.8.3.tar.gz#md5=0603337a81f83df2b1d2f1151565efac (from http://pypi.python.org/simple/pip/), version: 0.8.3
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.1.tar.gz#md5=7560e3055c66afb99ac4a7892389a237 (from http://pypi.python.org/simple/pip/), version: 0.6.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.3.tar.gz#md5=8fccb5b49c6377cbfb1949ccd7be43b3 (from http://pypi.python.org/simple/pip/), version: 0.3
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.8.2.tar.gz#md5=df1eca0abe7643d92b5222240bed15f6 (from http://pypi.python.org/simple/pip/), version: 0.8.2
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.8.tar.gz#md5=468d9adc309f33ad51cee38f0d455429 (from http://pypi.python.org/simple/pip/), version: 0.8
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.4.tar.gz#md5=b45714d04f8fd38fe8e3d4c7600b91a2 (from http://pypi.python.org/simple/pip/), version: 0.4
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.5.tar.gz#md5=63eed8673e40628534cc0aa9c98e8f3d (from http://pypi.python.org/simple/pip/), version: 0.5
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.2.tar.gz#md5=9eda07c8be7105aa774c7eb51c023294 (from http://pypi.python.org/simple/pip/), version: 0.2
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.7.1.tar.gz#md5=420c83ad67bdcb542f772eb64392cce6 (from http://pypi.python.org/simple/pip/), version: 0.7.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.3.tar.gz#md5=0602fa9179cfaa98e41565d4a581d98c (from http://pypi.python.org/simple/pip/), version: 0.6.3
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.2.1.tar.gz#md5=d2af655c1a87e03799442d045c1d6743 (from http://pypi.python.org/simple/pip/), version: 0.2.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.7.2.tar.gz#md5=cfe73090aaa0d3b0c104179a627859d1 (from http://pypi.python.org/simple/pip/), version: 0.7.2
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.3.1.tar.gz#md5=78102ddbb040a183dd361b5d432cdf88 (from http://pypi.python.org/simple/pip/), version: 0.3.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.7.tar.gz#md5=8d4b4f7266fe0808569182e6832d74ac (from http://pypi.python.org/simple/pip/), version: 0.7
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.5.1.tar.gz#md5=d4bdaa5f5f5bf8c6263ace75a0882232 (from http://pypi.python.org/simple/pip/), version: 0.5.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.8.1.tar.gz#md5=5d40614774781b118dd3f10c0d038cbc (from http://pypi.python.org/simple/pip/), version: 0.8.1
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.tar.gz#md5=083ff408ca5314cf0561ff79a048cd9a (from http://pypi.python.org/simple/pip/), version: 0.6
+    Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.2.tar.gz#md5=9a43e0a2ce8833069f41c347932bdb25 (from http://pypi.python.org/simple/pip/), version: 0.6.2
+    Skipping link http://pip.openplans.org (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://www.pip-installer.org (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://bitbucket.org/ianb/pip/issues/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://oss.openplans.org/pip/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link file:// (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://ionelmc.wordpress.com/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link https://github.com/pypa/pip (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://pypi.python.org/simple/pip/); unknown archive format: .html
+    Skipping link https://github.com/pypa/pip/raw/master/contrib/get-pip.py (from http://pypi.python.org/simple/pip/); unknown archive format: .py
+    Skipping link http://pypi.python.org/mirrors (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://trac.openplans.org/poacheggs/ (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://pypi.python.org/simple/pip/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://pypi.python.org/simple/pip/); not a file
+    Found link https://github.com/pypa/pip/tarball/develop#egg=pip-dev (from http://pypi.python.org/simple/pip/), version: dev
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/index.html
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/index.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#introduction (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#community (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#uninstall (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-files (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#freezing-requirements (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#bundles (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-file (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/index.html#command-line-completion (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#searching-for-packages (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#mirror-support (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/index.html
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/index.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#introduction (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#community (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#uninstall (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-files (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#freezing-requirements (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#bundles (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-file (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/index.html#command-line-completion (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#searching-for-packages (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#mirror-support (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#introduction (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#community (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#uninstall (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-files (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/#freezing-requirements (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#bundles (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#requirements-file (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/#command-line-completion (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#searching-for-packages (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.pip-installer.org/en/latest/#mirror-support (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/); not a file
+  Analyzing links from page http://www.pip-installer.org/en/latest/index.html
+    Skipping link http://www.pip-installer.org/en/latest/_static/nature.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/_static/pygments.css (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .css
+    Skipping link http://www.pip-installer.org/en/latest/index.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/news.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/installing.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/configuration.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/how-to-contribute.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/running-tests.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#introduction (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://virtualenv.openplans.org (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#pip-compared-to-easy-install (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://peak.telecommunity.com/DevCenter/EasyInstall (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://pypi.python.org/pypi/virtualenv (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#community (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link https://github.com/pypa/pip/issues/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://groups.google.com/group/python-virtualenv?hl=en (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#uninstall (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-files (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pip.openplans.org/requirement-format.html (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#freezing-requirements (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#bundles (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#requirements-file (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenv (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-virtualenvwrapper (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.doughellmann.com/projects/virtualenvwrapper/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#using-pip-with-buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/zc.buildout (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .buildout
+    Skipping link http://pypi.python.org/pypi/gp.recipe.pip (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .pip
+    Skipping link http://www.pip-installer.org/en/latest/index.html#command-line-completion (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://www.pip-installer.org/en/latest/index.html#searching-for-packages (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.pip-installer.org/en/latest/index.html#mirror-support (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/mirrors (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://www.python.org/dev/peps/pep-0381/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://sphinx.pocoo.org/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/projects/pip/?fromdocs=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/latest/ (from http://www.pip-installer.org/en/latest/index.html); not a file
+    Skipping link http://readthedocs.org/docs/pip/en/1.0.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.8.3/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .3
+    Skipping link http://readthedocs.org/docs/pip/en/0.7.2/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .2
+    Skipping link http://readthedocs.org/docs/pip/en/0.6.1/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .1
+    Skipping link http://readthedocs.org/docs/pip/en/0.5/ (from http://www.pip-installer.org/en/latest/index.html); unknown archive format: .5
+    Skipping link http://www.revsys.com?ref=rtd&project=pip (from http://www.pip-installer.org/en/latest/index.html); not a file
+  Using version 1.0.1 (newest of versions: 1.0.1, 1.0, 0.8.3, 0.8.2, 0.8.1, 0.8, 0.7.2, 0.7.1, 0.7, 0.6.3, 0.6.2, 0.6.1, 0.6, 0.5.1, 0.5, 0.4, 0.3.1, 0.3, 0.2.1, 0.2, dev)
+  Downloading from URL http://pypi.python.org/packages/source/p/pip/pip-1.0.1.tar.gz#md5=28dcc70225e5bf925532abc5b087a94b (from http://pypi.python.org/simple/pip/)
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1757, in install_files
+    self.unpack_url(url, location)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1901, in unpack_url
+    self.unpack_file(temp_location, location, content_type, link)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1919, in unpack_file
+    self.untar_file(filename, location)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1965, in untar_file
+    os.makedirs(location)
+  File "/usr/lib/python2.6/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/gisripa/MyCrazyCoding/ebay-hackathon/ebay-hackathon/ebay_hack/build/pip'
