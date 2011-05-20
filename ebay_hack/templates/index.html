@@ -100,7 +100,7 @@
                                 <input type="checkbox" name="value" value="40GB">40GB</input> 
                                 <input type="checkbox" name="value" value="60GB">80GB</input>
                                 <input type="checkbox" name="value" value="1TB">1TB</input>
-                                <input type="hidden" id="type" name="type" value="hdd" /
+                                <input type="hidden" id="type" name="type" value="hdd" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -111,7 +111,7 @@
                                 <input type="checkbox" name="value" value="14 inches">14"</input> 
                                 <input type="checkbox" name="value" value="15 inches">15"</input>
                                 <input type="checkbox" name="value" value="17 inches">17"</input>
-                                <input type="hidden" id="type" name="type" value="monitor" /
+                                <input type="hidden" id="type" name="type" value="monitor" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -121,7 +121,7 @@
                             <form name="keyboard" action="/assembler/" method="GET">
                                 <input type="checkbox" name="value" value="black keyboard">Black</input> 
                                 <input type="checkbox" name="value" value="white keyboard">White</input>
-                                <input type="hidden" id="type" name="type" value="keyboard" /
+                                <input type="hidden" id="type" name="type" value="keyboard" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -132,7 +132,7 @@
                                 <input type="checkbox" name="value" value="wired mouse">Wired</input> 
                                 <input type="checkbox" name="value" value="wireless mouse">Wireless</input>
                                 <input type="checkbox" name="value" value="optical mouse">Optical</input>
-                                <input type="hidden" id="type" name="type" value="mouse" /
+                                <input type="hidden" id="type" name="type" value="mouse" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -142,7 +142,7 @@
                             <form name="motherboard" action="/assembler/" method="GET">
                                 <input type="checkbox" name="value" value="intel motherboard">Intel</input> 
                                 <input type="checkbox" name="value" value="AMD motherboard">AMD</input>
-                                <input type="hidden" id="type" name="type" value="motherboard" /
+                                <input type="hidden" id="type" name="type" value="motherboard" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -153,7 +153,7 @@
                                 <input type="checkbox" name="value" value="core 2 duo processor">Core2Duo</input> 
                                 <input type="checkbox" name="value" value="i5 processor">i5</input>
                                 <input type="checkbox" name="value" value="i7 processor">i7</input>
-                                <input type="hidden" id="type" name="type" value="processor" /
+                                <input type="hidden" id="type" name="type" value="processor" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -163,7 +163,7 @@
                             <form name="case" action="/assembler/" method="GET">
                                 <input type="checkbox" name="value" value="white computer case">White</input> 
                                 <input type="checkbox" name="value" value="black computer case">Black</input>
-                                <input type="hidden" id="type" name="type" value="case" /
+                                <input type="hidden" id="type" name="type" value="case" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -173,7 +173,7 @@
                             <form name="video" action="/assembler/" method="GET">
                                 <input type="checkbox" name="value" value="512mb video card">512MB</input> 
                                 <input type="checkbox" name="value" value="1gb video card">1GB</input>
-                                <input type="hidden" id="type" name="type" value="video" /
+                                <input type="hidden" id="type" name="type" value="video" />
                                 <input type="submit" value="Go" />
                             </form>
                     </span></li>
@@ -199,7 +199,14 @@
                 <h3>Search results</h3>
 
                 <ul class="ul-list box">
-                    <li><a href="#">Lorem ipsum dolor sit amet</a><br /><span class="smaller low">(Monday, 01. 01. 08 &ndash; <a href="#">Lorem ipsum</a> &ndash; <a href="#">10 comments</a>)</span></li>
+                    {% if result %}         
+                    {% for item in result %} 
+                     
+                    <li>{{item}}<button type="button">Add item</button><br /><span class="smaller low">Price: URL: </span></li>
+
+                    {% endfor %}
+                    
+                    {% endif %}
                 </ul>
                 
                 <p class="t-center"><a href="#" class="ico-more">See more....</a></p>
@@ -236,8 +243,7 @@
 
     </div> <!-- /footer -->
 
-    <div>
-        P: {% if p %} {{ p }}  {% endif %}  
+    <div> 
     </div>
 </div> <!-- /main -->
 

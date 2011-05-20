@@ -1,8 +1,8 @@
 def get_url(operation_name):
-    import ConfigParser
-    config = ConfigParser.ConfigParser()
-    config.read("config.ini")
-    app_name = config.get("keys", "app_name")
+    # import ConfigParser
+    #     config = ConfigParser.ConfigParser()
+    #     config.read("config.ini")
+    app_name ="eBayInc9f-fb04-4c14-b351-97b02b2ed6b" 
     return "/services/search/FindingService/v1?OPERATION-NAME=" + operation_name + "&SERVICE-VERSION=1.9.0&SECURITY-APPNAME=" + app_name + "&RESPONSE-DATA-FORMAT=JSON"
 
 def get_response(url, method="GET"):

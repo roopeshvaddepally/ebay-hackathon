@@ -1,14 +1,14 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from calls import findItemsByKeywords as find
+from ebay_hack.api_wrapper.calls import findItemsByKeywords as find
 from json import loads
 
 
 def index(request):
     if request.method == "GET":
         # call get method
-        return HttpResponse("hello")
-        # do_get(request)
+        #return HttpResponse("hello")
+        return do_get(request)
     elif request.method == "POST":
         # call post method
         return do_post(request)
@@ -49,19 +49,19 @@ def get_ram_list(request):
     a = loads(response)
     result = []
     try:
-        b = a.["findItemsByKeywordsResponse"][0]["searchResult"][0]
+        b = a["findItemsByKeywordsResponse"][0]["searchResult"][0]
         result = [(each['itemId'][0], each['title'][0], each['location'][0]) for each in b['item']]
     except: pass
     return render_to_response("index.html",{"result": result})
 
 def get_hdd_list(request):
-    return render_to_response("index.html",{"p": "hdd list"})
+    return render_to_response("index.html",{"p": "hdd", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 def get_monitor_list(request):
-    return render_to_response("index.html",{"p": "monitor_list"})
+    return render_to_response("index.html",{"p": "monitor", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 def get_keyboard_list(request):
-    return render_to_response("index.html",{"p": "keyboard_list"})
+    return render_to_response("index.html",{"p": "keyboard", "result": [(1, 200, 102433),(2, 300, 123441)]})
 
 
 def get_mouse_list(request):
